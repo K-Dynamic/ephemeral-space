@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Soviet by K-Dynamic (github).",
+    "copyright": "Soviet, Good, Neutral, Bad by K-Dynamic (github).",
     "size": {
         "x": 8,
         "y": 8
@@ -9,6 +9,15 @@
     "states": [
         {
             "name": "Soviet"
+        },
+        {
+            "name": "Good"
+        },
+        {
+            "name": "Neutral"
+        },
+        {
+            "name": "Bad"
         }
     ]
 }

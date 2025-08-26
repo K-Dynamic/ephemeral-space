@@ -1,3 +1,4 @@
+### Factions
 - type: factionIcon
   id: ESSovietFaction
   isShaded: true
@@ -19,3 +20,37 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Nanotrasen
+
+### Relationships
+- type: factionIcon
+  id: ESRelationGood
+  priority: 20
+  locationPreference: Left
+#  showTo:
+#    components:
+#    - the component used for good relationship
+  icon:
+    sprite: /Textures/_ES/Interface/Misc/ES_job_icons.rsi
+    state: Good
+
+- type: factionIcon
+  id: ESRelationNeutral
+  priority: 20
+  locationPreference: Left
+#  showTo:
+#    components:
+#    - the component used for neutral relationship
+  icon:
+    sprite: /Textures/_ES/Interface/Misc/ES_job_icons.rsi
+    state: Neutral
+
+- type: factionIcon
+  id: ESRelationBad
+  priority: 20
+  locationPreference: Left
+#  showTo:
+#    components:
+#    - the component used for bad relationship
+  icon:
+    sprite: /Textures/_ES/Interface/Misc/ES_job_icons.rsi
+    state: Bad
