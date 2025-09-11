@@ -1193,10 +1193,10 @@
   id: MedicalDoctorJumpsuit
   name: loadout-group-medical-doctor-jumpsuit
   loadouts:
-  - MedicalDoctorJumpsuit
-  - MedicalDoctorJumpskirt
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
+  # - MedicalDoctorJumpsuit # ES START
+  # - MedicalDoctorJumpskirt
+  # - SeniorPhysicianJumpsuit
+  # - SeniorPhysicianJumpskirt ES END
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
