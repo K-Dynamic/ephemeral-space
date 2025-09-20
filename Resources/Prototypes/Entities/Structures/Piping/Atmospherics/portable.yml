@@ -99,7 +99,7 @@
     guides:
     - PortableScrubber
 
-- type: entity # ES modified
+- type: entity
   id: SpaceHeater
   parent: [BaseMachinePowered, ConstructibleMachine]
   name: space heater
