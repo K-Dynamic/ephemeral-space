@@ -20,7 +20,25 @@
       "name": "fill-suit-base"
     },
     {
+      "name": "fill-suit-command"
+    },
+    {
+      "name": "fill-suit-eng"
+    },
+    {
+      "name": "fill-suit-sec"
+    },
+    {
       "name": "fill-helmet-base"
+    },
+    {
+      "name": "fill-helmet-command"
+    },
+    {
+      "name": "fill-helmet-eng"
+    },
+    {
+      "name": "fill-helmet-sec"
     },
     {
       "name": "fill-tank-o2"
