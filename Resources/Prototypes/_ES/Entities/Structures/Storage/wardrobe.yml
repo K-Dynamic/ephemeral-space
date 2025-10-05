@@ -24,6 +24,11 @@
   name: janitor's wardrobe
 
 - type: entity
+  parent: WardrobeWhite
+  id: ESWardrobeMime
+  name: mime's wardrobe
+
+- type: entity
   parent: WardrobeBlack
   id: ESWardrobeReporter
   name: reporter's wardrobe
