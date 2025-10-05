@@ -32,3 +32,8 @@
   parent: WardrobeBlack
   id: ESWardrobeReporter
   name: reporter's wardrobe
+
+- type: entity
+  parent: WardrobeMixed
+  id: ESWardrobeTheatre
+  name: theatre wardrobe
