@@ -111,13 +111,13 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      entity_storage: !type:NestedSelector
+      entity_storage:
         tableId: ESFillWardrobeMime
 
 - type: entityTable
   id: ESFillWardrobeMime
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingBackpackMime
     - id: ClothingBeltSuspendersRed
     - id: ClothingHandsGlovesColorWhite

@@ -5,113 +5,109 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      entity_storage: !type:NestedSelector
+      entity_storage:
         tableId: ESFillWardrobeTheatre
-        rolls: !type:RangeNumberSelector
-          range: 3, 5
+        rolls: 3, 5
 
 - type: entityTable
   id: ESFillWardrobeTheatre
-  table: !type:GroupSelector
-    children:
+  table:
+    group:
     - tableId: ESOutfitCardborg
     - tableId: ESOutfitChicken
     - tableId: ESOutfitCowboy
-    - tableId: ESOutfitGladiator
     - tableId: ESOutfitJapan
     - tableId: ESOutfitJester
+    - tableId: ESOutfitJudge
     - tableId: ESOutfitSanta
     - tableId: ESOutfitSkub
     - tableId: ESOutfitShrineMaiden
-    - tableId: ESOutfitRedRacoon
+    - tableId: ESOutfitVaquero
     - tableId: ESOutfitWitch
 
 - type: entityTable
   id: ESOutfitCardborg
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatCardborg
     - id: ClothingOuterCardborg
 
 - type: entityTable
   id: ESOutfitChicken
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatChickenhead
     - id: ClothingOuterSuitChicken
 
 - type: entityTable
   id: ESOutfitCowboy
-  table: !type:AllSelector
+  table: !type:GroupSelector
     children:
-    - id: ClothingHeadHatCowboyBrown
-    - id: ClothingHeadHatCowboyBlack
-    - id: ClothingHeadHatCowboyGrey
-    - id: ClothingHeadHatCowboyWhite
-    - id: ClothingHeadHatSombrero
-    - id: ClothingShoesBootsCowboyBrown
-    - id: ClothingShoesBootsCowboyBlack
-    - id: ClothingShoesBootsCowboyWhite
-    - id: ClothingOuterPoncho
-    - id: ClothingOuterPonchoClassic
-
-- type: entityTable
-  id: ESOutfitGladiator
-  table: !type:AllSelector
-    children:
-    - id: ClothingHeadHatGladiator
-    - id: ClothingUniformJumpsuitGladiator
+    - all:
+      - id: ClothingHeadHatCowboyBrown
+      - id: ClothingShoesBootsCowboyBrown
+    - all:
+      - id: ClothingHeadHatCowboyBlack
+      - id: ClothingShoesBootsCowboyBlack
+    - all:
+      - id: ClothingHeadHatCowboyWhite
+      - id: ClothingShoesBootsCowboyWhite
 
 - type: entityTable
   id: ESOutfitJapan
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatCasa
     - id: ClothingUniformJumpsuitKimono
 
 - type: entityTable
   id: ESOutfitJester
-  table: !type:AllSelector
-    children:
-    - id: ClothingHeadHatJester
+  table:
+    all:
     - id: ClothingHeadHatJesterAlt
-    - id: ClothingUniformJumpsuitJester
     - id: ClothingUniformJumpsuitJesterAlt
     - id: ClothingShoesJester
 
 - type: entityTable
+  id: ESOutfitJudge
+  table:
+    all:
+    - id: ClothingHeadHatPwig
+    - id: ClothingOuterRobesJudge
+
+- type: entityTable
   id: ESOutfitSanta
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatSantahat
     - id: ClothingOuterSanta
 
 - type: entityTable
   id: ESOutfitSkub
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatSkub
     - id: ClothingOuterSkub
     - id: Skub
 
 - type: entityTable
   id: ESOutfitShrineMaiden
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatShrineMaidenWig
     - id: ClothingOuterSuitShrineMaiden
     - id: Gohei
 
 - type: entityTable
-  id: ESOutfitRedRacoon
-  table: !type:AllSelector
-    children:
-    - id: ClothingHeadHatRedRacoon
-    - id: ClothingOuterRedRacoon
+  id: ESOutfitVaquero
+  table:
+    all:
+    - id: ClothingHeadHatSombrero
+    - id: ClothingOuterPonchoClassic
 
 - type: entityTable
   id: ESOutfitWitch
-  table: !type:AllSelector
-    children:
+  table:
+    all:
     - id: ClothingHeadHatWitch1
     - id: ClothingOuterSuitWitchRobes
