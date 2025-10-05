@@ -41,8 +41,8 @@
 
 - type: entityTable
   id: ESOutfitCowboy
-  table: !type:GroupSelector
-    children:
+  table:
+    group:
     - all:
       - id: ClothingHeadHatCowboyBrown
       - id: ClothingShoesBootsCowboyBrown
