@@ -7,55 +7,24 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: ESFillWardrobeTheatre
+        rolls: !type:RangeNumberSelector
+          range: 3, 5
 
 - type: entityTable
   id: ESFillWardrobeTheatre
-  table: !type:AllSelector
+  table: !type:GroupSelector
     children:
-    - !type:NestedSelector
-      tableId: ESOutfitCardborg
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitChicken
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitCowboy
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitGladiator
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitJapan
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitJester
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitSanta
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitSkub
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitShrineMaiden
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitRedRacoon
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
-    - !type:NestedSelector
-      tableId: ESOutfitWitch
-      rolls: !type:RangeNumberSelector
-        range: 0, 1
+    - tableId: ESOutfitCardborg
+    - tableId: ESOutfitChicken
+    - tableId: ESOutfitCowboy
+    - tableId: ESOutfitGladiator
+    - tableId: ESOutfitJapan
+    - tableId: ESOutfitJester
+    - tableId: ESOutfitSanta
+    - tableId: ESOutfitSkub
+    - tableId: ESOutfitShrineMaiden
+    - tableId: ESOutfitRedRacoon
+    - tableId: ESOutfitWitch
 
 - type: entityTable
   id: ESOutfitCardborg
