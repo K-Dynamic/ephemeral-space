@@ -5,7 +5,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: _ES/Structures/Storage/glassbox.rsi
+    sprite: Structures/Storage/glassbox.rsi
   - type: Transform
     anchored: true
   - type: Physics
@@ -67,7 +67,7 @@
     damageDivisor: 7.555
     trackAllDamage: true
     damageOverlay:
-      sprite: _ES/Structures/Storage/glassbox.rsi # ES modified
+      sprite: Structures/Storage/glassbox.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Glass
