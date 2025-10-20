@@ -5,7 +5,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: _ES/Structures/Storage/glassbox.rsi
   - type: Transform
     anchored: true
   - type: Physics
