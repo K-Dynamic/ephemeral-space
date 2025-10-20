@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Created by EmoGarbage404 and Flareguy",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ballot"
+    },
+    {
+      "name": "light-fullbright"
+    },
+    {
+      "name": "light-med"
+    },
+    {
+      "name": "light-none"
+    },
+    {
+      "name": "fov-on"
+    },
+    {
+      "name": "fov-off"
+    }
+  ]
+}

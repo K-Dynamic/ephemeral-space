@@ -147,6 +147,7 @@ public sealed partial class OpenableSystem : EntitySystem
             args.Cancelled = true;
     }
 
+// ES START - Restore method after it was pointlessly removed
     /// <summary>
     /// Returns true if the entity either does not have OpenableComponent or it is opened.
     /// Drinks that don't have OpenableComponent are automatically open, so it returns true.
@@ -158,6 +159,7 @@ public sealed partial class OpenableSystem : EntitySystem
 
         return comp.Opened;
     }
+// ES END
 
     /// <summary>
     /// Returns true if the entity both has OpenableComponent and is not opened.

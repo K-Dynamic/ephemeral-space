@@ -1,20 +1,49 @@
 # Crew masks
 - type: esMask
-  id: ESGuardian
-  name: es-mask-guardian-name
+  id: ESMercenary
+  name: es-mask-mercenary-name
   troupe: ESCrew
-  description: es-mask-guardian-desc
-  weight: 1
-  objectives:
-    id: ESMaskObjectiveRandomStationKeepAlive
-
-# Traitor Masks
-- type: esMask
-  id: ESMarauder
-  name: es-mask-marauder-name
-  troupe: ESTraitor
-  description: es-mask-marauder-desc
+  description: es-mask-mercenary-desc
   weight: 1
   mindComponents:
   - type: ESMaskCacheSpawner
+    cacheProto: ESSpawnerRandomTraitorCache
+
+# Traitor Masks
+- type: esMask
+  id: ESBaseTraitor
+  abstract: true
+  troupe: ESTraitor
+  weight: 1
+  components:
+  - type: ESTroupeFactionIcon
+    icon: ESTraitor
+    troupe: ESTraitor
+    examineString: es-mask-troupe-traitor-examine
+
+- type: esMask
+  parent: ESBaseTraitor
+  id: ESMarauder
+  name: es-mask-marauder-name
+  description: es-mask-marauder-desc
+  mindComponents:
+  - type: ESMaskCacheSpawner
     cacheProto: ESCrateCacheTraitorMarauder
+
+- type: esMask
+  parent: ESBaseTraitor
+  id: ESAssassin
+  name: es-mask-assassin-name
+  description: es-mask-assassin-desc
+  mindComponents:
+  - type: ESMaskCacheSpawner
+    cacheProto: ESCrateCacheTraitorAssassin
+
+- type: esMask
+  parent: ESBaseTraitor
+  id: ESInfiltrator
+  name: es-mask-infiltrator-name
+  description: es-mask-infiltrator-desc
+  mindComponents:
+  - type: ESMaskCacheSpawner
+    cacheProto: ESCrateCacheTraitorInfiltrator

@@ -2,6 +2,7 @@ using System.Diagnostics;
 using System.Linq;
 using Content.Server._ES.Ephemera.Components;
 using Content.Server.Chat.Systems;
+using Content.Shared.Chat;
 using Content.Shared.Interaction;
 using Robust.Server.Audio;
 using Robust.Shared.Prototypes;
