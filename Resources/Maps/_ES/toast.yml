@@ -31937,9 +31937,6 @@ entities:
     - type: Transform
       pos: -14.5,-36.5
       parent: 2
-    - type: AccessReader
-      accessListsOriginal:
-      - - Janitor
 - proto: CrayonBox
   entities:
   - uid: 13261
