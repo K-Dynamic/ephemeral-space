@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 12/27/2025 20:17:19
-  entityCount: 14586
+  time: 12/28/2025 03:50:45
+  entityCount: 14589
 maps:
 - 3
 grids:
@@ -4888,7 +4888,7 @@ entities:
       pos: -11.5,1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -9527.099
+      secondsUntilStateChange: -9822.955
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6605,6 +6605,11 @@ entities:
     components:
     - type: Transform
       pos: -15.098658,-38.32988
+      parent: 2
+  - uid: 14589
+    components:
+    - type: Transform
+      pos: -15.299164,-35.545246
       parent: 2
 - proto: ButtonFrameCaution
   entities:
@@ -31932,6 +31937,9 @@ entities:
     - type: Transform
       pos: -14.5,-36.5
       parent: 2
+    - type: AccessReader
+      accessListsOriginal:
+      - - Janitor
 - proto: CrayonBox
   entities:
   - uid: 13261
@@ -75226,6 +75234,16 @@ entities:
     components:
     - type: Transform
       pos: -83.5,-11.5
+      parent: 2
+  - uid: 14587
+    components:
+    - type: Transform
+      pos: -11.37136,-36.65018
+      parent: 2
+  - uid: 14588
+    components:
+    - type: Transform
+      pos: -11.163027,-36.53552
       parent: 2
 - proto: TurnstileGenpopEnter
   entities:
